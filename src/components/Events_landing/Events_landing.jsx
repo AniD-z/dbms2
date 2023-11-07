@@ -18,7 +18,7 @@ export default function Events_landing() {
                 The little girl walked up to it and hit a few of the keys. The sound of the piano rang throughout the house 
                 for the first time in years. 
                 </p>
-                <a href="/valorant" class="read-more">
+                <a href="input.html" class="read-more">
                   Register-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
@@ -140,7 +140,7 @@ export default function Events_landing() {
 
 
                 </p>
-                <a href="/rendezvous" class="read-more">
+                <a href="input.html" class="read-more">
                   Register-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
