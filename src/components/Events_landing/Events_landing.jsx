@@ -14,10 +14,9 @@ export default function Events_landing() {
               <div class="article-body">
                 <h2>Quize !</h2>
                 <p>
-                  Join us for an action-packed intercollege Valorant tournament
-                  with big cash prizes up for grabs! Test your skills against
-                  other college teams in intense gameplay that rewards strategy
-                  and teamwork. Don't miss out on this thrilling gaming event!
+                The piano sat silently in the corner of the room. Nobody could remember the last time it had been played. 
+                The little girl walked up to it and hit a few of the keys. The sound of the piano rang throughout the house 
+                for the first time in years. 
                 </p>
                 <a href="/valorant" class="read-more">
                   Register-now{" "}
@@ -46,10 +45,7 @@ export default function Events_landing() {
               <div class="article-body">
                 <h2>Quize @</h2>
                 <p>
-                  Experience the excitement of football on the virtual field!
-                  Join our intercollege FIFA tournament and compete for
-                  thrilling cash prizes. Register now and show off your skills
-                  in this epic gaming event!
+                  EThe piano sat silently in the corner of the room. Nobody could remember the last time it had been played. The little girl walked up to it and hit a few of the keys. The sound of the piano rang throughout the house for the first time in years. 
                 </p>
                 <a href="/fifa" class="read-more">
                   Register-now{" "}
@@ -78,10 +74,8 @@ export default function Events_landing() {
               <div class="article-body">
                 <h2>Quize #</h2>
                 <p>
-                  Join our BGMI intercollege tournament and win exciting cash
-                  prizes! Show off your mobile gaming skills and battle it out
-                  with players from other colleges. Don't miss this chance to be
-                  a champion!{" "}
+                EThe piano sat silently in the corner of the room. Nobody could remember the last time it had been played. The little girl walked up to it and hit a few of the keys. The sound of the piano rang throughout the house for the first time in years. 
+
                 </p>
                 <a href="/pubg" class="read-more">
                   Register-now{" "}
@@ -111,10 +105,8 @@ export default function Events_landing() {
               <div class="article-body">
                 <h2>Quize $</h2>
                 <p>
-                  Join the gaming event's VR/AR hackathon to create innovative
-                  experiences using cutting-edge technology and expert
-                  mentorship. Win exciting prizes and explore the potential of
-                  VR/AR.
+                EThe piano sat silently in the corner of the room. Nobody could remember the last time it had been played. The little girl walked up to it and hit a few of the keys. The sound of the piano rang throughout the house for the first time in years. 
+
                 </p>
                 <a href="/hackathon" class="read-more">
                   Register-now{" "}
@@ -144,7 +136,8 @@ export default function Events_landing() {
               <div class="article-body">
                 <h2>Quize %</h2>
                 <p>
-                Get ready for an adventure like no other! Our treasure hunt event uses cutting-edge AR technology to create an immersive experience. Solve clues, discover hidden treasures, and compete with friends in this unique and thrilling adventure. Join us now!
+                EThe piano sat silently in the corner of the room. Nobody could remember the last time it had been played. The little girl walked up to it and hit a few of the keys. The sound of the piano rang throughout the house for the first time in years. 
+
 
                 </p>
                 <a href="/rendezvous" class="read-more">
@@ -175,7 +168,8 @@ export default function Events_landing() {
               <div class="article-body">
                 <h2>Quize ^</h2>
                 <p>
-                Welcome to Console Crusade, the ultimate gaming arena for console and PC enthusiasts! Get ready to embark on an epic gaming adventure with titles like Uncharted, Forza 5, Mortal Kombat, and Spider-Man. Join us for an unforgettable gaming experience and compete with fellow gamers for glory!{" "}
+                EThe piano sat silently in the corner of the room. Nobody could remember the last time it had been played. The little girl walked up to it and hit a few of the keys. The sound of the piano rang throughout the house for the first time in years. 
+
                 </p>
                 {/* <a href="#" class="read-more">
                   {" "}

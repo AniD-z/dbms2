@@ -11,20 +11,12 @@ export default function About() {
           <div className="info-text text-white text-[24px]">
             <p>
               {" "}
-              Welcome to <span className="span-emp">GG!</span>, the ultimate
-              gaming event that will take you on a journey of adventure,
-              excitement, and pure gaming fun! Join us on{" "}
-              <span className="span-emp">April 21st and 22nd</span> for two days
-              of non-stop gaming fun, including Hallucinate, where you'll
-              experience mind-bending VR gameplay, Rendezvous, a treasure hunt
-              with a high-tech twist, Flash, a special movie screening of your
-              favorite blockbuster films, and Alt+f4, a gaming tournament that
-              will test your skills and push you to the limit.
+              The Schemaverse is a space-based strategy game implemented entirely within a PostgreSQL database. Compete against other players using raw SQL commands to command your fleet. Or, if your PL/pgSQL-foo is strong, wield it to write AI and have your fleet command itself!
             </p>
             <p>
               Get ready to immerse yourself in the world of gaming like never
               before, connect with other passionate gamers, and have the time of
-              your life at GG!
+              your life at SV!
             </p>
           </div>
           <div className="hero-cards w-full">
