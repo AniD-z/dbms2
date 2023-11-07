@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  /* padding: 0; */
+  
+}
+
+:root {
+  --font-tc: "Technor", sans-serif;
+  --font-nn: "Nunito", sans-serif;
+}
+/* body {
+  background-color: #fff3e2;
+  background-color: #c7e9b0;
+  background-color: #fdf7c3;
+  background-color: #fdf7c3;
+} */
+
+body{
+  cursor: url("./assets/among-us.svg"), auto;
+  
+}
+.ff-tc {
+  font-family: var(--font-tc);
+}
+.ff-nn {
+  font-family: var(--font-nn);
+}
+
+/* .ot-red {
+  outline: 2px solid red;
+}
+.ot-blue {
+  outline: 2px solid blue;
+}
+.ot-green {
+  outline: 2px solid green;
+}
+.ot-yellow {
+  outline: 2px solid yellow;
+} */
+
+.ds-no {
+  display: none;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #777474;
+}

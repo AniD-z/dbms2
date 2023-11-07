@@ -1,0 +1,40 @@
+/* .infocards {
+  width: 100%;
+} */
+.infocards {
+  position: relative;
+  z-index: 2;
+  transition: all 1s ease-in;
+}
+
+.infocards div,
+.infocards::after {
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.infocards:hover {
+  animation: mv 200ms linear forwards;
+}
+
+.infocards:hover::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: #ff6000;
+  border: 2px solid #ff6000;
+  z-index: -2;
+  height: 100%;
+  width: calc(100% - 10px);
+  top: 10px;
+  right: -10px;
+}
+
+@keyframes mv {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+    transform: translate(-5px, -5px);
+  }
+}

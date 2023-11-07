@@ -1,0 +1,273 @@
+/* @media only screen and (min-width: 768px) { */
+.intro-mob {
+  display: none;
+}
+
+.intro-lap {
+  display: inherit;
+}
+.scroll-indi{
+  font-weight: 500;
+  font-size: 18px;
+  position: absolute;
+  top :10px;
+  right: 10px;
+}
+
+.intro-page {
+  padding-block: 2rem;
+  min-height: 200vh;
+  /* outline: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  overflow: hidden;
+}
+
+.intro-start-box {
+  /* outline: 2px solid yellow; */
+  min-height: 130vh;
+  padding-block: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 2rem;
+}
+.intro-quote {
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 70px;
+}
+.qt-txt {
+  font-size: 50px;
+}
+.qt-emp {
+  font-size: 90px;
+  font-weight: 700;
+}
+
+.intro-title {
+  padding: 5rem;
+  width: 100%;
+  /* height: 50vh; */
+
+  /* display: flex;
+  flex-direction: column; */
+  position: relative;
+}
+
+.title-up,
+.title-down {
+  /* outline: 2px solid yellow; */
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 300px;
+}
+.title-up {
+  bottom: 10%;
+  left: -10%;
+}
+.title-down {
+  top: 10%;
+  right: -10%;
+}
+.line-up,
+.line-down {
+  font-size: 50px;
+}
+
+/* .title-up::before { */
+.line-up {
+  position: absolute;
+  /* outline: 2px solid blue; */
+  height: 150px;
+  /* width: 100vw; */
+  top: 0;
+  /* right: 0; */
+  display: flex;
+}
+
+.line-up {
+  position: absolute;
+  /* outline: 2px solid blue; */
+  height: 150px;
+  /* width: 100vw; */
+  top: 0;
+  /* right: 0; */
+  display: flex;
+}
+.line {
+  /* position: absolute; */
+  background-color: black;
+  width: 80vw;
+  height: 10px;
+  top: 0px;
+  right: 20px;
+  border-radius: 20px;
+}
+.date-up {
+  /* padding-inline: 2rem; */
+  position: absolute;
+  display: inline;
+  right: -250px;
+  top: -15px;
+  /* width: 50px; */
+}
+.date-down {
+  /* padding-inline: 2rem; */
+  position: absolute;
+  display: inline;
+  left: -250px;
+  bottom: -15px;
+  /* width: 50px; */
+}
+
+.filler {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 50vh;
+  margin-top: 10rem;
+}
+/* } */
+
+@media only screen and (max-width: 415px) {
+  .intro-quote {
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 45px;
+  }
+  .qt-txt {
+    font-size: 30px;
+  }
+  .qt-emp {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  .intro-lap,
+  .date-down {
+    display: none;
+  }
+
+  .intro-mob {
+    padding: 5rem;
+    width: 100%;
+    min-height: 50vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-mob-box {
+    padding: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title-mob {
+    font-size: 150px;
+    font-weight: 700;
+  }
+
+  .title-mob li {
+    text-align: center;
+  }
+  .title-mob li {
+    margin: 0;
+    line-height: 0.8em;
+  }
+
+  .ul-left {
+    transform: translateY(-50px);
+    margin-right: 3rem;
+  }
+  .ul-right {
+    transform: translateY(100px);
+  }
+}
+
+.intro-1 {
+  position: relative;
+  height: 100vh;
+  font-weight: 700;
+  font-size: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* outline: 2px solid red; */
+}
+.intro-box {
+  position: relative;
+  transition: all 200ms linear;
+  border-radius: 100%;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* outline: 2px solid red; */
+}
+.intro-btn {
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+  position: absolute;
+  border: 3px solid black;
+  border-radius: 100%;
+  cursor: pointer;
+  animation: circle 5s infinite linear;
+}
+.intro-btn-txt {
+  padding: 5rem;
+}
+
+.intro-btn::after {
+  position: absolute;
+  content: " ";
+  display: block;
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  left: 60px;
+  border-radius: 100%;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* .intro-btn:hover { */
+.intro-box:hover {
+  background-color: black;
+  border-radius: 100%;
+}
+.intro-btn:hover ~ .intro-btn-txt {
+  color: white;
+}
+.title {
+  font-size: 150px;
+  font-weight: 700;
+}
+
+.ds-none {
+  display: none;
+}
+
+/* .intro-box: */
