@@ -1,0 +1,54 @@
+/*begin of font style*/
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:300);
+body {
+  font-family: 'Source Code Pro';
+}
+h1 {
+  text-align: center;
+}
+p {
+  font-size: 20px;
+}
+
+.noteType {
+  text-align: center;
+}
+/*end of font style*/
+
+/*begin of table style*/
+table {
+  border: 2px solid grey;
+  width: 100%;
+}
+td {
+  border: 1px solid lightgrey;
+  width: 50%;
+  padding: 10px;
+}
+/*end of table style*/
+
+/*begin of technical style*/
+input {
+  font-size: 20px;
+  font-family: 'Source Code Pro';
+  text-align: center;
+  width: 100%;
+  align: center;
+  border: 1px solid lightgrey;
+  margin-bottom: 5px;
+  margin-top : 5px;
+}
+
+button {
+  font-size: 20px;
+  font-family: 'Source Code Pro';
+  text-align: center;
+  width: 100%;
+  align: center;
+  border: 1px solid lightgrey;
+  background-color: white;
+}
+/*end of technical style*/
+
+/*begin of various code*/
+/*end of various code*/
