@@ -12,7 +12,7 @@ export default function Events_landing() {
                 <img src="valo_gif.gif" alt="" />
               </figure>
               <div class="article-body">
-                <h2>VALORANT</h2>
+                <h2>Quize !</h2>
                 <p>
                   Join us for an action-packed intercollege Valorant tournament
                   with big cash prizes up for grabs! Test your skills against
@@ -44,7 +44,7 @@ export default function Events_landing() {
                 <img src="fifa_gif.gif" alt="" />
               </figure>
               <div class="article-body">
-                <h2>FIFA</h2>
+                <h2>Quize @</h2>
                 <p>
                   Experience the excitement of football on the virtual field!
                   Join our intercollege FIFA tournament and compete for
@@ -76,7 +76,7 @@ export default function Events_landing() {
                 <img src="pubg_gif.gif" alt="" />
               </figure>
               <div class="article-body">
-                <h2>BGMI</h2>
+                <h2>Quize #</h2>
                 <p>
                   Join our BGMI intercollege tournament and win exciting cash
                   prizes! Show off your mobile gaming skills and battle it out
@@ -109,7 +109,7 @@ export default function Events_landing() {
                 <img src="hackathon_gif.gif" alt="" />
               </figure>
               <div class="article-body">
-                <h2>Hackathon</h2>
+                <h2>Quize $</h2>
                 <p>
                   Join the gaming event's VR/AR hackathon to create innovative
                   experiences using cutting-edge technology and expert
@@ -142,7 +142,7 @@ export default function Events_landing() {
                 <img src="hunt_gif.gif" alt="" />
               </figure>
               <div class="article-body">
-                <h2>Rendezvous</h2>
+                <h2>Quize %</h2>
                 <p>
                 Get ready for an adventure like no other! Our treasure hunt event uses cutting-edge AR technology to create an immersive experience. Solve clues, discover hidden treasures, and compete with friends in this unique and thrilling adventure. Join us now!
 
@@ -173,7 +173,7 @@ export default function Events_landing() {
                 <img src="gaming_arena.gif" alt="" />
               </figure>
               <div class="article-body">
-                <h2>Gaming-Arena</h2>
+                <h2>Quize ^</h2>
                 <p>
                 Welcome to Console Crusade, the ultimate gaming arena for console and PC enthusiasts! Get ready to embark on an epic gaming adventure with titles like Uncharted, Forza 5, Mortal Kombat, and Spider-Man. Join us for an unforgettable gaming experience and compete with fellow gamers for glory!{" "}
                 </p>
