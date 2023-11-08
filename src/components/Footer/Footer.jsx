@@ -11,11 +11,6 @@ function Footer() {
             href="#"
             className="flex flex-wrap justify-center items-center mb-4 sm:mb-0"
           >
-            <img
-              src="/forge_trans.png"
-              className="h-[150px] mr-3"
-              alt="Flowbite Logo"
-            />
             <span className="self-center text-4xl font-semibold whitespace-nowrap dark:text-white ff-tc uppercase">
               SchemaVerse
             </span>
