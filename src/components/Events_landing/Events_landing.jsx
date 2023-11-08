@@ -12,14 +12,12 @@ export default function Events_landing() {
                 <img src="valo_gif.gif" alt="" />
               </figure>
               <div class="article-body">
-                <h2>Quize !</h2>
+                <h2>Level 1</h2>
                 <p>
-                The piano sat silently in the corner of the room. Nobody could remember the last time it had been played. 
-                The little girl walked up to it and hit a few of the keys. The sound of the piano rang throughout the house 
-                for the first time in years. 
+                There's been a Murder in SQL City! The Murder Mystery is designed to be both a self-directed lesson to learn NoSQL concepts and commands and a fun game for experienced NoSQL users to solve an intriguing crime.
                 </p>
                 <a href="input.html" class="read-more">
-                  Register-now{" "}
+                  Start-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -43,12 +41,11 @@ export default function Events_landing() {
                 <img src="fifa_gif.gif" alt="" />
               </figure>
               <div class="article-body">
-                <h2>Quize @</h2>
+                <h2>Level 2</h2>
                 <p>
-                  EThe piano sat silently in the corner of the room. Nobody could remember the last time it had been played. The little girl walked up to it and hit a few of the keys. The sound of the piano rang throughout the house for the first time in years. 
-                </p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.                </p>
                 <a href="/fifa" class="read-more">
-                  Register-now{" "}
+                  Start-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -72,13 +69,12 @@ export default function Events_landing() {
                 <img src="pubg_gif.gif" alt="" />
               </figure>
               <div class="article-body">
-                <h2>Quize #</h2>
+                <h2>Level 3</h2>
                 <p>
-                EThe piano sat silently in the corner of the room. Nobody could remember the last time it had been played. The little girl walked up to it and hit a few of the keys. The sound of the piano rang throughout the house for the first time in years. 
-
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <a href="/pubg" class="read-more">
-                  Register-now{" "}
+                  Start-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -103,13 +99,12 @@ export default function Events_landing() {
                 <img src="hackathon_gif.gif" alt="" />
               </figure>
               <div class="article-body">
-                <h2>Quize $</h2>
+                <h2>Level 4</h2>
                 <p>
-                EThe piano sat silently in the corner of the room. Nobody could remember the last time it had been played. The little girl walked up to it and hit a few of the keys. The sound of the piano rang throughout the house for the first time in years. 
-
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <a href="/hackathon" class="read-more">
-                  Register-now{" "}
+                  Start-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -134,14 +129,13 @@ export default function Events_landing() {
                 <img src="hunt_gif.gif" alt="" />
               </figure>
               <div class="article-body">
-                <h2>Quize %</h2>
+                <h2>Level 5</h2>
                 <p>
-                EThe piano sat silently in the corner of the room. Nobody could remember the last time it had been played. The little girl walked up to it and hit a few of the keys. The sound of the piano rang throughout the house for the first time in years. 
-
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
                 </p>
                 <a href="input.html" class="read-more">
-                  Register-now{" "}
+                  Start-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -166,12 +160,11 @@ export default function Events_landing() {
                 <img src="gaming_arena.gif" alt="" />
               </figure>
               <div class="article-body">
-                <h2>Quize ^</h2>
+                <h2>Quize 6</h2>
                 <p>
-                EThe piano sat silently in the corner of the room. Nobody could remember the last time it had been played. The little girl walked up to it and hit a few of the keys. The sound of the piano rang throughout the house for the first time in years. 
-
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                {/* <a href="#" class="read-more">
+                 <a href="#" class="read-more">
                   {" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
@@ -186,7 +179,7 @@ export default function Events_landing() {
                       clip-rule="evenodd"
                     />
                   </svg>
-                </a> */}
+                </a> 
               </div>
             </div>
           </article>
