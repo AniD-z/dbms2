@@ -11,15 +11,10 @@ export default function About() {
           <div className="info-text text-white text-[24px]">
             <p>
               {" "}
-              The Schemaverse is a space-based strategy game implemented entirely within a PostgreSQL database. Compete against other players using raw SQL commands to command your fleet. Or, if your PL/pgSQL-foo is strong, wield it to write AI and have your fleet command itself!
-            </p>
-            <p>
-              Get ready to immerse yourself in the world of gaming like never
-              before, connect with other passionate gamers, and have the time of
-              your life at SV!
+              Schemaverse is an innovative website that offers a unique and challenging strategy game designed to teach MongoDB commands. This platform provides an engaging and educational experience for developers and database enthusiasts looking to improve their MongoDB skills.x
             </p>
           </div>
-          <div className="hero-cards w-full">
+          {/* <div className="hero-cards w-full">
             <div className="info-container flex flex-wrap h-full flex-col justify-evenly ">
               <Infocards
                 name="gaming"
@@ -45,7 +40,7 @@ export default function About() {
                 // bg="#ece1d6"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
