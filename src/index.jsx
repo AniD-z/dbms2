@@ -160,7 +160,7 @@ function Routee() {
               />
             }
           />
-          <Route path="/input exact element={</Input>} />
+          <Route path="/input" exact element={<Input/>} />
         </Routes>
       </BrowserRouter>
     </div>
