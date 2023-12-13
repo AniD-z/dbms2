@@ -47,10 +47,6 @@ function Input() {
   return (
     <div >
 
-      <h1>BITCHHHH</h1>
-{/*     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
 
     <h1>TESTING AREA</h1>
 
@@ -112,7 +108,7 @@ function Input() {
     </tr>
 
   </tbody>
-</table> */}
+</table>
 
     </div>
   );
