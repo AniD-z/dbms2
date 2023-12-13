@@ -3,46 +3,46 @@ import Axios from "axios";
 import "./form.css";
 
 function Input() {
-  const [teamName, setTeamName] = useState("");
-  const [teamCaptain, setTeamCaptain] = useState("");
-  const [regNo1, setRegNo1] = useState("");
-  const [teamMate2, setTeamMate2] = useState("");
-  const [regNo2, setRegNo2] = useState("");
-  const [teamMate3, setTeamMate3] = useState("");
-  const [regNo3, setRegNo3] = useState("");
-  const [teamMate4, setTeamMate4] = useState("");
-  const [regNo4, setRegNo4] = useState("");
-  const [sub, setSub] = useState("");
-  const [regNo5, setRegNo5] = useState("");
-  const [captainIgName, setCaptainIgName] = useState("");
-  const [TxId, setTxId] = useState("");
+  // const [teamName, setTeamName] = useState("");
+  // const [teamCaptain, setTeamCaptain] = useState("");
+  // const [regNo1, setRegNo1] = useState("");
+  // const [teamMate2, setTeamMate2] = useState("");
+  // const [regNo2, setRegNo2] = useState("");
+  // const [teamMate3, setTeamMate3] = useState("");
+  // const [regNo3, setRegNo3] = useState("");
+  // const [teamMate4, setTeamMate4] = useState("");
+  // const [regNo4, setRegNo4] = useState("");
+  // const [sub, setSub] = useState("");
+  // const [regNo5, setRegNo5] = useState("");
+  // const [captainIgName, setCaptainIgName] = useState("");
+  // const [TxId, setTxId] = useState("");
 
-  async function registerBgmiUser(event) {
-    event.preventDefault();
-    const res = await Axios.post(
-      "https://forge-backend-service.onrender.com/bgmi",
-      {
-        teamName: teamName,
-        teamCaptain: teamCaptain,
-        regNo1: regNo1,
-        teamMate2: teamMate2,
-        regNo2: regNo2,
-        teamMate3: teamMate3,
-        regNo3: regNo3,
-        teamMate4: teamMate4,
-        regNo4: regNo4,
-        sub: sub,
-        regNo5: regNo5,
-        captainIgName: captainIgName,
-        TxId: TxId,
-      },
-      {
-        header: {
-          "content-type": "application/json",
-        },
-      }
-    ).then(() => (window.location.href = "/succuss"));
-  }
+  // async function registerBgmiUser(event) {
+  //   event.preventDefault();
+  //   const res = await Axios.post(
+  //     "https://forge-backend-service.onrender.com/bgmi",
+  //     {
+  //       teamName: teamName,
+  //       teamCaptain: teamCaptain,
+  //       regNo1: regNo1,
+  //       teamMate2: teamMate2,
+  //       regNo2: regNo2,
+  //       teamMate3: teamMate3,
+  //       regNo3: regNo3,
+  //       teamMate4: teamMate4,
+  //       regNo4: regNo4,
+  //       sub: sub,
+  //       regNo5: regNo5,
+  //       captainIgName: captainIgName,
+  //       TxId: TxId,
+  //     },
+  //     {
+  //       header: {
+  //         "content-type": "application/json",
+  //       },
+  //     }
+  //   ).then(() => (window.location.href = "/succuss"));
+  // }
 
   return (
     <div >
