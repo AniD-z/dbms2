@@ -45,119 +45,73 @@ function Input() {
   }
 
   return (
-    <div className="login">
-    <div className="form">
-      <h1 className="form-title">BGMI Registration</h1>
-      <form method="POST" onSubmit={registerBgmiUser}>
-        <input
-          value={teamName}
-          type="text"
-          placeholder="Team Name"
-          onChange={(e) => setTeamName(e.target.value)}
-          required
-        />
-        <br />
-        <input
-          value={teamCaptain}
-          type="text"
-          placeholder="Captain Name"
-          onChange={(e) => setTeamCaptain(e.target.value)}
-          required
-        />
-        <br />
-        <input
-          value={regNo1}
-          type="text"
-          placeholder="Captain Registration Number"
-          onChange={(e) => setRegNo1(e.target.value)}
-          required
-        />
-        <br />
-        <input
-          value={teamMate2}
-          type="text"
-          placeholder="TeamMate-2 Name"
-          onChange={(e) => setTeamMate2(e.target.value)}
-          required
-        />
-        <br />
-        <input
-          value={regNo2}
-          type="text"
-          placeholder="TeamMate-2 Registration Number"
-          onChange={(e) => setRegNo2(e.target.value)}
-          required
-        />
-        <br />
-        <input
-          value={teamMate3}
-          type="text"
-          placeholder="TeamMate-3 Name"
-          onChange={(e) => setTeamMate3(e.target.value)}
-          required
-        />
-        <br />
-        <input
-          value={regNo3}
-          type="text"
-          placeholder="TeamMate-3 Registration Number"
-          onChange={(e) => setRegNo3(e.target.value)}
-          required
-        />
-        <br />
-        <input
-          value={teamMate4}
-          type="text"
-          placeholder="TeamMate-4 Name"
-          onChange={(e) => setTeamMate4(e.target.value)}
-          required
-        />
-        <br />
-        <input
-          value={regNo4}
-          type="text"
-          placeholder="TeamMate-4 Registration Number"
-          onChange={(e) => setRegNo4(e.target.value)}
-          required
-        />
-        <br />
-        <input
-          value={sub}
-          type="text"
-          placeholder="Substitution Name (optional)"
-          onChange={(e) => setSub(e.target.value)}
-        />
-        <br />
-        <input
-          value={regNo5}
-          type="text"
-          placeholder="Substitution Registration (optional)"
-          onChange={(e) => setRegNo5(e.target.value)}
-        />
-        <br />
-        <input
-          value={captainIgName}
-          type="text"
-          placeholder="Captain In-game Name"
-          onChange={(e) => setCaptainIgName(e.target.value)}
-          required
-        />
-        <br />
-        <input
-          value={TxId}
-          type="text"
-          placeholder="PhoneNumber(WhatsApp)"
-          onChange={(e) => setTxId(e.target.value)}
-          required
-        />
-        <br />
-        <button type="submit" className="valorant-btn">
-          <span class="underlay">
-            <span class="label">Submit</span>
-          </span>
-        </button>
-      </form>
-    </div>
+    <div >
+{/*     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> */}
+
+    <h1>TESTING AREA</h1>
+
+<table>
+  <tbody>
+
+    <tr>
+      <td>
+        <p>INPUT</p>
+      </td>
+      <td>
+        <input id="input1">
+        <input id="input2">
+        <input id="input3">
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <p>OUTPUT
+          <p>
+      </td>
+      <td>
+        <p id="output"></p>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <p>LOG</p>
+      </td>
+      <td>
+        <p id="log"></p>
+    </tr>
+
+    <tr>
+      <td>
+        <button onclick="clearLog()">Clear the log</button>
+      </td>
+      <td>
+        <button onclick="launch()">Execute launch()</button>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <p>QUICK NOTES</p>
+      </td>
+      <td>
+        <p class="noteType">IDs</p>
+        <p>Input text box : "input"</p>
+        <p>Output text : "output"</p>
+        <p>Log text : "log"</p>
+        <p class="noteType">FUNCTIONS</p>
+        <p>On button press : "launch()"</p>
+        <p>Access the debug : debug(x)</p>
+        <p>Clear the log : clearLog()</p>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
     </div>
   );
 }
