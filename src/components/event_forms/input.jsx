@@ -47,7 +47,6 @@ function Input() {
   return (
     <div >
 
-
     <h1>TESTING AREA</h1>
 
 <table>
