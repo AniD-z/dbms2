@@ -43,73 +43,82 @@ function Input() {
   //     }
   //   ).then(() => (window.location.href = "/succuss"));
   // }
+    const clearLog = () => {
+    // Your clearLog implementation
+      console.log("qwert")
+  };
+
+  const launch = () => {
+    // Your launch implementation
+          console.log("qwertyuiop")
+
+  };
 
   return (
-    <div >
-      <h1>HELLOOOOO</h1>
-{/* 
-    <h1>TESTING AREA</h1>
+ <div>
 
-<table>
-  <tbody>
+      <h1>TESTING AREA</h1>
 
-    <tr>
-      <td>
-        <p>INPUT</p>
-      </td>
-      <td>
-        <input id="input1">
-        <input id="input2">
-        <input id="input3">
-      </td>
-    </tr>
+      <table>
+        <tbody>
 
-    <tr>
-      <td>
-        <p>OUTPUT
-          <p>
-      </td>
-      <td>
-        <p id="output"></p>
-      </td>
-    </tr>
+          <tr>
+            <td>
+              <p>INPUT</p>
+            </td>
+            <td>
+              <input id="input1" />
+              <input id="input2" />
+              <input id="input3" />
+            </td>
+          </tr>
 
-    <tr>
-      <td>
-        <p>LOG</p>
-      </td>
-      <td>
-        <p id="log"></p>
-    </tr>
+          <tr>
+            <td>
+              <p>OUTPUT</p>
+            </td>
+            <td>
+              <p id="output"></p>
+            </td>
+          </tr>
 
-    <tr>
-      <td>
-        <button onclick="clearLog()">Clear the log</button>
-      </td>
-      <td>
-        <button onclick="launch()">Execute launch()</button>
-      </td>
-    </tr>
+          <tr>
+            <td>
+              <p>LOG</p>
+            </td>
+            <td>
+              <p id="log"></p>
+            </td>
+          </tr>
 
-    <tr>
-      <td>
-        <p>QUICK NOTES</p>
-      </td>
-      <td>
-        <p class="noteType">IDs</p>
-        <p>Input text box : "input"</p>
-        <p>Output text : "output"</p>
-        <p>Log text : "log"</p>
-        <p class="noteType">FUNCTIONS</p>
-        <p>On button press : "launch()"</p>
-        <p>Access the debug : debug(x)</p>
-        <p>Clear the log : clearLog()</p>
-      </td>
-    </tr>
+          <tr>
+            <td>
+              <button onClick={clearLog}>Clear the log</button>
+            </td>
+            <td>
+              <button onClick={launch}>Execute launch()</button>
+            </td>
+          </tr>
 
-  </tbody>
-</table>
- */}
+          <tr>
+            <td>
+              <p>QUICK NOTES</p>
+            </td>
+            <td>
+              <p className="noteType">IDs</p>
+              <p>Input text box: "input"</p>
+              <p>Output text: "output"</p>
+              <p>Log text: "log"</p>
+              <p className="noteType">FUNCTIONS</p>
+              <p>On button press: "launch()"</p>
+              <p>Access the debug: debug(x)</p>
+              <p>Clear the log: clearLog()</p>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+
     </div>
   );
 }
