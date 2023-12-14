@@ -46,7 +46,8 @@ function Input() {
 
   return (
     <div >
-
+      <h1>HELLOOOOO</h1>
+{/* 
     <h1>TESTING AREA</h1>
 
 <table>
@@ -108,7 +109,7 @@ function Input() {
 
   </tbody>
 </table>
-
+ */}
     </div>
   );
 }
