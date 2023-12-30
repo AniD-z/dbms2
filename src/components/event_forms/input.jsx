@@ -9,7 +9,8 @@ import Button from '@mui/material/Button';
 
 import "./form.css";
 
-function Input() {
+function Input(props) {
+  const passedData = props.location.state;
 
    useEffect(()=>{
     document.body.style.backgroundColor="#CDF5FD"
@@ -54,7 +55,8 @@ function Input() {
 
   return (
  <div>
-    <h1>Level</h1>
+    <h1>Level {passedData.level}</h1>
+    <p>{passedData.prob}</p>
     <CodeMirror
       value={value}
       width='60rem'
