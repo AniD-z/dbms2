@@ -11,6 +11,7 @@ import "./form.css";
 
 function Input(props) {
   const passedData = props.location.state;
+  console.log(passedData)
 
    useEffect(()=>{
     document.body.style.backgroundColor="#CDF5FD"
