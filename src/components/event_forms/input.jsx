@@ -3,14 +3,20 @@ import CodeMirror from '@uiw/react-codemirror';
 import { javascript } from '@codemirror/lang-javascript';
 import {autocompletion} from "@codemirror/autocomplete"
 import { monokai } from '@uiw/codemirror-theme-monokai';
-
-import { useState } from "react";
+import { useState  , useEffect} from "react";
 import Axios from "axios";
 import Button from '@mui/material/Button';
 
 import "./form.css";
 
 function Input() {
+
+   useEffect(()=>{
+    document.body.style.backgroundColor="#CDF5FD"
+    document.body.style.paddingLeft = "18rem";
+  } , [])
+
+   
    const [value, setValue] = React.useState("console.log('hello world!');");
   const onChange = React.useCallback((val, viewUpdate) => {
     console.log('val:', val);
@@ -25,7 +31,9 @@ function Input() {
     })
     console.log(response)
   }
-   
+   const editorStyle={
+  fontSize : "1.5rem"
+}
   const completions = [
   {label: "panic", type: "keyword"},
   {label: "park", type: "constant", info: "Test completion"},
@@ -44,24 +52,12 @@ function Input() {
   }
 }
 
-  //   const clearLog = () => {
-  //   // Your clearLog implementation
-  //     console.log("qwert")
-  // };
-
-  // const launch = () => {
-  //   // Your launch implementation
-  //         console.log("qwertyuiop")
-
-  // };
-
   return (
  <div>
     <CodeMirror
       value={value}
-      height="20rem"
       width='60rem'
-      
+      style={editorStyle}
       theme={monokai}
       extensions={[javascript({ jsx: true }) , autocompletion({override: [myCompletions]}) 
 
