@@ -1,7 +1,13 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./Events_landing.css";
 
 export default function Events_landing() {
+  const dataToPass1={
+    level:"1",
+    prob:"prob statement 1",
+    ans : "solution 1"
+  }
   return (
     <div className="about-page">
       <div>
@@ -16,7 +22,9 @@ export default function Events_landing() {
                 <p>
                 There's been a Murder in SQL City! The Murder Mystery is designed to be both a self-directed lesson to learn NoSQL concepts and commands and a fun game for experienced NoSQL users to solve an intriguing crime.
                 </p>
-                <a href="./input" class="read-more">
+{/*                 <a href="./input" class="read-more"> */}
+                      <Link to="/input" state={dataToPass1}>
+
                   Start-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
