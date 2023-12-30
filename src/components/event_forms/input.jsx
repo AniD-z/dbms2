@@ -17,7 +17,7 @@ function Input() {
   } , [])
 
    
-   const [value, setValue] = React.useState("console.log('hello world!');");
+   const [value, setValue] = React.useState("db.collection.operation(query) \n \n \n \n \n");
   const onChange = React.useCallback((val, viewUpdate) => {
     console.log('val:', val);
     setValue(val);
@@ -54,6 +54,7 @@ function Input() {
 
   return (
  <div>
+    <h1>Level</h1>
     <CodeMirror
       value={value}
       width='60rem'
