@@ -88,10 +88,10 @@ import Button from '@mui/material/Button';
 import { useLocation } from 'react-router-dom';
 
 
-import "./form.css";
+// import "./form.css";
 
 function Input() {
-    let { state } = useLocation();
+    let  state = useLocation();
 
     useEffect(() => {
         document.body.style.backgroundColor = "#000000"
@@ -140,7 +140,8 @@ function Input() {
 
     return (
         <div>
-
+            {/* <h1>Level {passedData.level}</h1>
+            <p>{passedData.prob}</p> */}
             <CodeMirror
                 value={value}
                 width='60rem'
