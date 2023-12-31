@@ -90,12 +90,8 @@ import { useLocation } from 'react-router-dom';
 
 import "./form.css";
 
-function Input(props) {
-    console.log(props)
+function Input() {
     let { state } = useLocation();
-
-
-    // const passedData = props.location.state;
 
     useEffect(() => {
         document.body.style.backgroundColor = "#000000"
@@ -144,8 +140,7 @@ function Input(props) {
 
     return (
         <div>
-            {/* <h1>Level {passedData.level}</h1>
-            <p>{passedData.prob}</p> */}
+
             <CodeMirror
                 value={value}
                 width='60rem'
