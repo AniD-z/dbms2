@@ -16,6 +16,7 @@ function Input() {
    useEffect(()=>{
     document.body.style.backgroundColor="#000000"
     document.body.style.paddingLeft = "18rem";
+       console.log(state)
   } , [])
 
    
