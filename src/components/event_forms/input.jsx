@@ -6,20 +6,16 @@ import { monokai } from '@uiw/codemirror-theme-monokai';
 import { useState  , useEffect} from "react";
 import Axios from "axios";
 import Button from '@mui/material/Button';
+import { useLocation } from 'react-router-dom';
 
 import "./form.css";
 
-function Input(props) {
-  console.log(props)
-  const passedData = props.location.state;
+function Input() {
+    let { state } = useLocation();
 
    useEffect(()=>{
     document.body.style.backgroundColor="#000000"
     document.body.style.paddingLeft = "18rem";
-     console.log("bitchhhh")
-     console.log(props)
-    console.log(passedData)
-
   } , [])
 
    
@@ -60,8 +56,8 @@ function Input(props) {
 
   return (
  <div>
-    <h1>Level {passedData.level}</h1>
-    <p>{passedData.prob}</p>
+    <h1>Level {state.level}</h1>
+    <p>{state.prob}</p>
     <CodeMirror
       value={value}
       width='60rem'
