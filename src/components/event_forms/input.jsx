@@ -14,7 +14,7 @@ function Input(props) {
   const passedData = props.location.state;
 
    useEffect(()=>{
-    document.body.style.backgroundColor="#CDF5FD"
+    document.body.style.backgroundColor="#000000"
     document.body.style.paddingLeft = "18rem";
      console.log("bitchhhh")
      console.log(props)
