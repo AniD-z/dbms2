@@ -23,7 +23,7 @@ export default function Events_landing() {
                 There's been a Murder in SQL City! The Murder Mystery is designed to be both a self-directed lesson to learn NoSQL concepts and commands and a fun game for experienced NoSQL users to solve an intriguing crime.
                 </p>
 {/*                 <a href="./input" class="read-more"> */}
-                      <Link to="/input" state={dataToPass1}>
+                      <Link to="/input" state={dataToPass1}> ... </Link>
 
                   Start-now{" "}
                   <span class="sr-only">about this is some title</span>
