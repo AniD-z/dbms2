@@ -8,8 +8,13 @@ export default function Events_landing() {
     prob:"prob statement 1",
     ans : "solution 1"
   }
+  const data={
+    key:"value"
+  }
   return (
     <div className="about-page">
+                  <Link to="/input" state={data} >here </Link>
+
       <div>
         <section class="articles">
           <article>
