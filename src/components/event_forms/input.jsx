@@ -10,12 +10,15 @@ import Button from '@mui/material/Button';
 import "./form.css";
 
 function Input(props) {
+  console.log(props)
   const passedData = props.location.state;
 
    useEffect(()=>{
     document.body.style.backgroundColor="#CDF5FD"
     document.body.style.paddingLeft = "18rem";
-       console.log(passedData)
+     console.log("bitchhhh")
+     console.log(props)
+    console.log(passedData)
 
   } , [])
 
