@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Valorant from "./components/event_forms/valorant";
 import Fifa from "./components/event_forms/fifa";
 import Bgmi from "./components/event_forms/bgmi";
+import Input from "./components/event_forms/input";
 // import Home from "./components/home";
 import SuccussPage from "./components/event_forms/sucess";
 import EventPage from "./components/event_forms/eventpage";
@@ -159,6 +160,7 @@ function Routee() {
               />
             }
           />
+          <Route path="/input" exact element={<Input/>} />
         </Routes>
       </BrowserRouter>
     </div>
