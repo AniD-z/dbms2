@@ -94,7 +94,7 @@ function Input() {
     let  state = useLocation();
 
     useEffect(() => {
-        document.body.style.backgroundColor = "#000000"
+        document.body.style.backgroundColor = "#fff"
         document.body.style.paddingLeft = "18rem";
         console.log("bitchhhh")
         console.log(state)
