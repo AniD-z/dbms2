@@ -9,7 +9,6 @@ import { monokai } from '@uiw/codemirror-theme-monokai';
 import { useState, useEffect } from "react";
 import Axios from "axios";
 import { useLocation } from 'react-router-dom';
-import backgroundImage from "./logo_2.png";
 
 
 function Input() {
@@ -26,9 +25,6 @@ function Input() {
     }, [])
     const editorStyle = {
         fontSize: "1.5rem",
-        backgroundImage: `url(${backgroundImage})`, 
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover"
       };
 
 
