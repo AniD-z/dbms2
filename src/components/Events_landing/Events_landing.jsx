@@ -13,7 +13,6 @@ export default function Events_landing() {
   }
   return (
     <div className="about-page">
-                  <Link to="/input" state={data} >here </Link>
 
       <div>
         <section class="articles">
@@ -27,7 +26,7 @@ export default function Events_landing() {
                 <p> 
                 There's been a Murder in SQL City! The Murder Mystery is designed to be both a self-directed lesson to learn NoSQL concepts and commands and a fun game for experienced NoSQL users to solve an intriguing crime.
                 </p>
-                 <a href="./input" class="read-more"> 
+                 <a href="./input" state={data} class="read-more"> 
                   Start-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
