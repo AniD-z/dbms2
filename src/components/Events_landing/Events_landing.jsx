@@ -77,7 +77,7 @@ export default function Events_landing() {
           <article>
             <div class="article-wrapper">
               <figure>
-              <img src="hunt_gif.gif" alt="" />
+              <img src="level3.gif" alt="" />
               </figure>
               <div class="article-body">
                 <h2>Level 3</h2>
@@ -107,7 +107,7 @@ export default function Events_landing() {
           <article>
             <div class="article-wrapper">
               <figure>
-              <img src="hunt_gif.gif" alt="" />
+              <img src="level4.gif" alt="" />
               </figure>
               <div class="article-body">
                 <h2>Level 4</h2>
@@ -137,7 +137,7 @@ export default function Events_landing() {
           <article>
             <div class="article-wrapper">
               <figure>
-                <img src="hunt_gif.gif" alt="" />
+                <img src="level5.gif" alt="" />
               </figure>
               <div class="article-body">
                 <h2>Level 5</h2>
@@ -168,7 +168,7 @@ export default function Events_landing() {
           <article>
             <div class="article-wrapper">
               <figure>
-              <img src="hunt_gif.gif" alt="" />
+              <img src="level6.gif" alt="" />
               </figure>
               <div class="article-body">
                 <h2>Level 6</h2>
