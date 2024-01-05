@@ -9,6 +9,7 @@ import { monokai } from '@uiw/codemirror-theme-monokai';
 import { useState, useEffect } from "react";
 import Axios from "axios";
 import { useLocation } from 'react-router-dom';
+import { blue } from "@mui/material/colors";
 
 
 function Input() {
@@ -65,6 +66,8 @@ function Input() {
             <p>{passedData.prob}</p> */}
             <CodeMirror
                 value={value}
+                backgroundColor ="blue"
+                
     
                 
                 width='60rem'
