@@ -16,7 +16,7 @@ function Input() {
     let  state = useLocation();
 
     useEffect(() => {
-        document.body.style.backgroundColor = "#fff"
+        document.body.style.backgroundColor = "#000000"
         document.body.style.paddingLeft = "18rem";
         console.log("bitchhhh")
         console.log(state)
@@ -67,7 +67,7 @@ function Input() {
             <CodeMirror
                 value={value}
                 backgroundColor ="blue"
-                
+
     
                 
                 width='60rem'
