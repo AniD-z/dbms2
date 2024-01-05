@@ -21,24 +21,3 @@ const Infocards = ({ gif, name, clr, bg }) => {
 };
 
 export default Infocards;
-
-{
-  /* <div
-        className={`cards ff-tc text-5xl font-semibold px-4 outline outline-red-500 my-2 py-12 uppercase bg-[url('${img}')] bg-center  bg-cover bg-no-repeat`}
-      >
-        <div className={` text-right text-${clr}  bg-transparent`}>{name}</div>
-      </div> */
-}
-
-// <div
-//         className={`cards ff-tc text-5xl font-semibold px-4 outline outline-red-500 my-2 py-12 uppercase  z-30`}
-//       >
-//         <video
-//           src={`${img}`}
-//           autoPlay="{true}"
-//           loop
-//           muted
-//           className="relative -z-1 "
-//         ></video>
-//         <div className={` text-right text-${clr}  bg-transparent`}>{name}</div>
-//       </div>
