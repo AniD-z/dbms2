@@ -68,7 +68,7 @@ function Input() {
             <p>{passedData.prob}</p> */}
             <CodeMirror
                 value={value}
-                width='60rem'
+                width='80rem'
                 style={editorStyle}
                 theme={monokai}
                 extensions={[javascript({ jsx: true }), autocompletion({ override: [myCompletions] })
