@@ -54,7 +54,7 @@ export default function Events_landing() {
                 <h2>Level 2</h2>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.                </p>
-                <a href="/fifa" class="read-more">
+                <a href="./input" class="read-more">
                   Start-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
@@ -83,7 +83,7 @@ export default function Events_landing() {
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <a href="/pubg" class="read-more">
+                <a href="./input" class="read-more">
                   Start-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
@@ -113,7 +113,7 @@ export default function Events_landing() {
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <a href="/hackathon" class="read-more">
+                <a href="./input" class="read-more">
                   Start-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
@@ -144,7 +144,7 @@ export default function Events_landing() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
                 </p>
-                <a href="input.html" class="read-more">
+                <a href="./input" class="read-more">
                   Start-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
@@ -174,7 +174,7 @@ export default function Events_landing() {
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                 <a href="#" class="read-more">
+                 <a href="./input" class="read-more">
                   {" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
