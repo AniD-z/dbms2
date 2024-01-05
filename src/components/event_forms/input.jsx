@@ -69,7 +69,7 @@ function Input() {
                 value={value}
                 height="100rem"
                 
-                width='80rem'
+                width='60rem'
                 style={editorStyle}
                 theme={monokai}
                 extensions={[javascript({ jsx: true }), autocompletion({ override: [myCompletions] })
