@@ -11,8 +11,6 @@ import Axios from "axios";
 import { useLocation } from 'react-router-dom';
 
 
-// import "./form.css";
-
 function Input() {
     let  state = useLocation();
 
@@ -62,7 +60,7 @@ function Input() {
     }
 
     return (
-        <div>
+        <div className="center">
             {/* <h1>Level {passedData.level}</h1>
             <p>{passedData.prob}</p> */}
             <CodeMirror
