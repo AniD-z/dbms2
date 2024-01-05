@@ -1,11 +1,15 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
+import Valorant from "./components/event_forms/valorant";
+import Fifa from "./components/event_forms/fifa";
+import Bgmi from "./components/event_forms/bgmi";
 import Input from "./components/event_forms/input";
 // import Home from "./components/home";
 import SuccussPage from "./components/event_forms/sucess";
 import EventPage from "./components/event_forms/eventpage";
-
+import App from "./App";
+import Hackathon from "./components/event_forms/hackathon";
+import Rendezvous from "./components/event_forms/rendezvous";
 
 
 function Routee() {
@@ -14,6 +18,9 @@ function Routee() {
       <BrowserRouter>
         <Routes>
           <Route index element={<App />} />
+          <Route path="/valorant-registration" exact element={<Valorant />} />
+          <Route path="/fifa-registration" exact element={<Fifa />} />
+          <Route path="/bgmi-registration" exact element={<Bgmi />} />
           <Route path="/succuss" exact element={<SuccussPage />} />
           <Route path="/hackathon-registration" exact element={<Hackathon />} />
           <Route path="/rendezvous-registration" exact element={<Rendezvous />} />
