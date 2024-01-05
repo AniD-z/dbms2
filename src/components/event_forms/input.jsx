@@ -10,6 +10,7 @@ import { useState, useEffect } from "react";
 import Axios from "axios";
 import { useLocation } from 'react-router-dom';
 import { blue } from "@mui/material/colors";
+import backgroundImage from "./logo_2.png";
 
 
 function Input() {
@@ -21,9 +22,15 @@ function Input() {
         document.body.style.paddingRight="10rem";
         console.log("bitchhhh")
         console.log(state)
-        // console.log(passedData)
+        
 
     }, [])
+    const editorStyle = {
+        fontSize: "1.5rem",
+        backgroundImage: `url(${backgroundImage})`, // Set the background image
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover"
+      };
 
 
     const [value, setValue] = React.useState("db.collection.operation(query) \n \n \n \n \n");
@@ -40,9 +47,7 @@ function Input() {
         })
         console.log(response)
     }
-    const editorStyle = {
-        fontSize: "1.5rem"
-    }
+
     const completions = [
         { label: "panic", type: "keyword" },
         { label: "park", type: "constant", info: "Test completion" },
@@ -67,10 +72,6 @@ function Input() {
             <p>{passedData.prob}</p> */}
             <CodeMirror
                 value={value}
-                backgroundColor ="blue"
-
-    
-                
                 width='60rem'
                 style={editorStyle}
                 theme={monokai}
