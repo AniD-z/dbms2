@@ -19,10 +19,7 @@
   background-color: #fdf7c3;
 } */
 
-body{
-  cursor: url("./assets/among-us.svg"), auto;
-  
-}
+
 .ff-tc {
   font-family: var(--font-tc);
 }
