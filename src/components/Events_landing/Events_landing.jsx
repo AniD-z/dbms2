@@ -22,6 +22,7 @@ export default function Events_landing() {
               <img src="hunt_gif.gif" alt="" />
               </figure>
               <div class="article-body">
+                <Link to="/input" state={data} >
                 <h2>Level 1</h2>
                 <p> 
                 There's been a Murder in SQL City! The Murder Mystery is designed to be both a self-directed lesson to learn NoSQL concepts and commands and a fun game for experienced NoSQL users to solve an intriguing crime.
@@ -42,6 +43,7 @@ export default function Events_landing() {
                     />
                   </svg>
                 </a>
+                </Link>
               </div>
             </div>
           </article>
