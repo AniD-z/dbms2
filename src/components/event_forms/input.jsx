@@ -16,8 +16,9 @@ function Input() {
     let  state = useLocation();
 
     useEffect(() => {
-        document.body.style.backgroundColor = "#000000"
+        document.body.style.backgroundColor = "#000000";
         document.body.style.paddingLeft = "10rem";
+        document.body.style.paddingRight="10rem";
         console.log("bitchhhh")
         console.log(state)
         // console.log(passedData)
