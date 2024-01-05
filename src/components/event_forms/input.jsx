@@ -76,8 +76,7 @@ function Input() {
                 ]}
                 onChange={onChange}
             />
-            <Button onClick={handleSubmit} variant="contained">SUBMIT</Button>
-            <button type="submit" className="valorant-btn">
+            <button onClick={handleSubmit} variant="contained" type="submit" className="valorant-btn">
           <span class="underlay">
             <span class="label">Submit</span>
           </span>
