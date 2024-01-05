@@ -19,10 +19,10 @@ export default function Events_landing() {
         <article>
             <div class="article-wrapper">
               <figure>
-              <img src="level2.gif" alt="" />
+              <img src="hunt_gif.gif" alt="" />
               </figure>
               <div class="article-body">
-                <h2>Level 2</h2>
+                <h2>Level 1</h2>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.                </p>
                 <a href="./input" class="read-more">
