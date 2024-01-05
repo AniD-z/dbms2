@@ -55,8 +55,6 @@ function Input() {
     ]
     function myCompletions(context) {
         let before = context.matchBefore(/\w+/)
-        // If completion wasn't explicitly started and there
-        // is no word before the cursor, don't open completions.
         if (!context.explicit && !before) return null
         return {
             from: before ? before.from : context.pos,
