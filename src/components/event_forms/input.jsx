@@ -65,7 +65,7 @@ function Input() {
             <p>{passedData.prob}</p> */}
             <CodeMirror
                 value={value}
-                height="100rem"
+    
                 
                 width='60rem'
                 style={editorStyle}
