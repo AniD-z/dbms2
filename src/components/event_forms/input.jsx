@@ -17,7 +17,7 @@ function Input() {
 
     useEffect(() => {
         document.body.style.backgroundColor = "#000000"
-        document.body.style.paddingLeft = "18rem";
+        document.body.style.paddingLeft = "10rem";
         console.log("bitchhhh")
         console.log(state)
         // console.log(passedData)
