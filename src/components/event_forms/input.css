@@ -1,0 +1,25 @@
+.CodeMirror {
+    height: 500px;
+    border: 1px solid #ccc;
+    font-size: 1.5rem;
+  }
+  
+  .CodeMirror-scroll {
+    overflow-y: scroll;
+    overflow-x: auto;
+  }
+  
+  .Button {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .Button:hover {
+    background-color: #0069d9;
+  }
