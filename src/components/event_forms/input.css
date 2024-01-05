@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 0; /* Reset the margin to ensure the component is perfectly centered */
   }
   
   .CodeMirror-scroll {
