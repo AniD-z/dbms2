@@ -4,5 +4,8 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  optimizeDeps: {
+    include: ['@uiw/react-codemirror'],
+  },
   plugins: [react()],
 });
