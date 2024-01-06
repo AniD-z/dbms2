@@ -142,7 +142,7 @@ export const Intro = () => {
         </div>
         <div className="intro-title intro-lap">
           <div className="title-up">
-            <div className="">SCHEMA</div>
+            <div className="">SCHEM</div>
             <div className="line-up">
               <div className="line"></div>
               <div className="date-up "></div>

@@ -16,18 +16,16 @@ export default function Events_landing() {
 
       <div>
         <section class="articles">
-          <article>
+        <article>
             <div class="article-wrapper">
               <figure>
-              <img src="hunt_gif.gif" alt="" />
+              <img src="level2.gif" alt="" />
               </figure>
               <div class="article-body">
-                <Link to="/input" state={data} >
                 <h2>Level 1</h2>
-                <p> 
-                There's been a Murder in SQL City! The Murder Mystery is designed to be both a self-directed lesson to learn NoSQL concepts and commands and a fun game for experienced NoSQL users to solve an intriguing crime.
-                </p>
-                 <a href="./input" state={data} class="read-more"> 
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.                </p>
+                <a href="./input" class="read-more">
                   Start-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
@@ -43,7 +41,6 @@ export default function Events_landing() {
                     />
                   </svg>
                 </a>
-                </Link>
               </div>
             </div>
           </article>
